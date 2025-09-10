@@ -12,7 +12,8 @@ int main(void) {
 
     int shift;
     printf("Enter shift value: ");
-    scanf("%d", &shift);
+    scanf_s("%d", &shift);
+    // scanf("%d", &shift);
 
     cypher(message, shift);
 
